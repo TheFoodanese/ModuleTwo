@@ -99,16 +99,35 @@ header nav ul li a:hover {
     line-height: 1.5;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
+  
   
   p {
     margin: 0;
   }
 
+  nav {
+    background-color: #37173b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* Style sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+/* Style footer */
+footer {
+    background-color: #37173b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

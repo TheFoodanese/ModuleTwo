@@ -7,3 +7,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+
+function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+}

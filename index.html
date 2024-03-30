@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="./style.css" />
+  <script src="scripts.js"></script>
+
 </head>
 
 
@@ -18,22 +20,16 @@
 
     </div>
     <nav>
-        <ul>
-            <li>
-                <a href="h2">About Me</a>
-            </li>
-            <li>
-                <a href="My Work">My Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
+      <a onclick="scrollToSection('about')">About Me</a>
+      <a onclick="scrollToSection('work')">My Work</a>
+      <a onclick="scrollToSection('contact')">Contact Me</a>
+      
     </nav>
   </header>
 
   
   <section class="hero-banner">
+    <section id="about"></section>
     <div>
       <h2>🩺💉🧠Medicine by day, 👨‍💻🌙Coding by night!</h2>
     </div>
@@ -57,19 +53,22 @@
     </section>
 
     
-    <section class="container h2" id="work">
-      <a id="My Work"></a>
+    <section class="container h2" style="text-align: center;" style="margin-bottom: 10cm;">
+    <section id="work"></section>
       <h2>Work</h2>
       
-      I'm currently juggling my time working and studying while trying to incorporate coding in my spare time.
+      I'm currently juggling my time working and studying while trying to incorporate coding in my spare time. Go to my GitHub page to see my works.
     </section>
 
     
     <section class="container 3" id="contact">
       <h2>Contact Me</h2>
       📫 How to reach me: EMAIL - malazhassan94@gmail.com 
-        GITHUB - The Foodanese
+         <a href="https://github.com/TheFoodanese">GitHub</a>
     </section>
+    <footer>
+      <p>&copy; 2024 My Personal Website</p>
+  </footer>
   </main>
 </body>
 
