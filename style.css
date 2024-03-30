@@ -24,29 +24,9 @@
 
 h2 {text-align: center;}
 
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-}
 
-header nav {
-    margin: 20px;
-}
 
-header nav ul li a {
-    padding: 8px;
-    font-size: 28px;
-    margin: 20px 20px 0 0;
-    font-weight: bold;
-}
 
-header nav ul li a:hover {
-    background: var(--pop);
-    color: var(--primary);
-    border-radius: 15px;
-}
 
 
 
@@ -73,21 +53,14 @@ header nav ul li a:hover {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #eee0ed;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
   
-  .container h2 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .container h3 {
-    color: #666;
-    margin-bottom: 10px;
-  }
+
+
   * {
     box-sizing: border-box;
   }
@@ -127,7 +100,7 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
 }
